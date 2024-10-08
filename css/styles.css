@@ -55,8 +55,41 @@ body {
   --icone-color: #afb1b8;
   --icone-bg-color: #f5f4fa;
   --timing-functione: cubic-bezier(0.4, 0, 0.2, 1);
+  --hed-ap-color: #F2F2F2;
 
-
+}
+.hed__ap {
+  display: flex;
+    justify-content: space-between;
+    align-items: center;
+  width: 1440px;
+  height: 69px;
+  padding: 0 50px;
+  margin: 0 auto;
+  opacity: 0px;
+  background-color: var(--hed-ap-color);
+}
+.hed__ap-conteiner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1200px;
+  margin: 0 auto;
+}
+.hed__ap-p {
+  font-family: Inter;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0.36000001430511475px;
+    text-align: left;
+    color: #1C2752;
+}
+.hed__ap-icons {
+    display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 20px;
 }
 
 /* .sections {
