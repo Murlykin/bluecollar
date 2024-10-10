@@ -35,7 +35,7 @@ button {
   cursor: pointer;
 }
 
-*/ body {
+body {
   font-family: "Mulish", sans-serif;
   font-size: 16px;
   letter-spacing: 0.03em;
@@ -95,7 +95,18 @@ button {
   align-items: center;
   gap: 20px;
 }
-
+.hed__decor{
+    display: flex;
+      justify-content: space-between;
+      align-items: center;
+  width: 1440px;
+  background: #FFFFFF;
+  position: relative;
+  z-index: -15;
+  margin-bottom: 50px;
+  padding-bottom: 50px;
+    margin: 0 auto;
+}
 .hed__middle {
   display: flex;
   justify-content: space-between;
@@ -103,6 +114,10 @@ button {
   width: 1200px;
   height: 128px;
   margin: 0 auto;
+  /* background: #FFFFFF; */
+  /* padding-bottom: 50px; */
+  position: relative;
+  z-index: -10;
 }
 
 .hed__middle-contact {
@@ -140,6 +155,8 @@ button {
   height: 88px;
   margin: 0 auto;
   background: #FFB342;
+  margin-top: -50px;
+
 }
 
 .menu__p {
@@ -246,6 +263,9 @@ button {
   display: flex;
   padding-top: 94px;
   padding-bottom: 94px;
+  background: #ffffff;
+  width: 1440px;
+  margin: 0 auto;
 }
 
 .provide__conteiner {
@@ -354,6 +374,8 @@ button {
   margin: 0 auto;
   width: 1440px;
   padding-top: 150px;
+  height: 900px;
+
 }
 
 .offer__icon {
@@ -457,13 +479,16 @@ button {
   width: 1160px;
   margin: 0 auto;
   background: #FFFFFF;
-  padding-top: 50px;
-
+  padding: 50px;
+position: relative;
+z-index: 51;
+box-shadow: -1px 6px 18px 0px #00000017;
 }
 
 .offer__second-conteiner {
   display: flex;
   gap: 80px;
+
 }
 
 .offer__second-left-icon {
@@ -495,7 +520,7 @@ button {
   letter-spacing: 0.36000001430511475px;
   text-align: left;
   color: #7E7E7E;
-  padding-top: 10px;
+  padding: 5px;
 }
 
 .offen__button {
@@ -509,4 +534,5 @@ button {
   color: var(--text-color);
   width: 190px;
   height: 68px;
+  margin-top: 20px;
 }
