@@ -660,7 +660,6 @@ body {
 .choose {
   display: flex;
   padding-top: 120px;
-  padding-bottom: 120px;
   margin: 0 auto;
   justify-content: center;
   width: 1440px;
@@ -668,8 +667,6 @@ body {
 
 .choose__img {
   width: 720px;
-  /* height: 765px; */
-
 }
 
 .choose__box {
@@ -733,7 +730,7 @@ body {
   flex-direction: column;
   flex-wrap: wrap;
   background: #FFFFFF;
-  padding: 106px 110px;
+  padding: 105.5px 110px;
   gap: 15px;
 
 }
@@ -817,4 +814,89 @@ body {
   flex-direction: column;
   flex-wrap: wrap;
   gap: 10px;
+}
+
+/* ================ gallery ============================================== */
+
+.gallery {
+  display: flex;
+  padding-bottom: 120px;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  width: 1440px;
+  background: #1C2752;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.gallery__icon {
+  display: flex;
+  justify-content: center;
+  /* text-align: center; */
+  align-items: center;
+  width: 207px;
+  gap: 15px;
+  background: #F4F4F4;
+  margin-top: 150px;
+}
+
+.gallery__icon-p {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0.36000001430511475px;
+  text-align: center;
+  color: #1C2752;
+
+}
+
+.gallery__h1 {
+  font-family: Mulish;
+  font-size: 45px;
+  font-weight: 400;
+  line-height: 58.5px;
+  letter-spacing: 0.36000001430511475px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.gallery__items {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.gallery__item {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 320px;
+  height: 477px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  background: #FFFFFF;
+  border: 1px solid #D2D2D2
+}
+
+.gallery__h2 {
+  font-family: Mulish;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 37.5px;
+  letter-spacing: 0.36000001430511475px;
+  text-align: center;
+  color: #1C2752;
+}
+
+.gallery__p {
+  font-family: Inter;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0.36000001430511475px;
+  text-align: center;
+  color: #7E7E7E;
 }
